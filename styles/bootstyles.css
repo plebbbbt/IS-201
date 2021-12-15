@@ -1,0 +1,85 @@
+body {
+    background-color: #e0b5b5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+    font-family: 'Brush Script MT', cursive;
+}
+.fancy {
+    color: whitesmoke;
+}
+h1 {
+    font-family: 'Times New Roman', cursive;
+    font-size: 4.5em;
+    text-align: center;
+}
+#tableauheader {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-bottom: 100px;
+    border: black 4px solid;
+    padding:10px;
+}
+.menu {
+    display: flex;
+    background-color: rgb(14, 19, 19);
+    color: white;
+    flex-direction: row;
+}
+#nuggetheader {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-bottom: 100px;
+    border: black 4px solid;
+    padding:10px;
+}
+a {
+    display: inline;
+}
+ul {
+    list-style-type:square;
+    list-style-image: url('./images/bullet_black_16.png');
+}
+
+
+.menu {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    flex-direction: row;
+
+}
+.menu li {
+    text-align: center;
+    padding: 5px 5px;
+    flex-grow: 2;
+    list-style: none;
+}
+
+.menu li a {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+.menu li a:hover {
+    font-size: 38px;
+}
+a {
+    display: inline;
+}
+ul {
+    list-style-type:square;
+}
+#footer-row1{
+    margin-top: 80px;
+    padding: 1.2em 0;
+    background: rgb(255, 255, 255);
+    bottom: 0;
+    margin-right: -33px;
+    font-family: "Times New Roman", Verdana, Geneva, sans-serif;
+    font-size: 0.95em;
+    text-transform: uppercase;
+}
